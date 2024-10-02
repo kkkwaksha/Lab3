@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta
+      name="keywords"
+      content="HTML5, CSS, верстка, макет, Flexbox, Flex, блочна верстка"
+    />
+    <meta
+      name="description"
+      content="Лабораторна робота №3 з теми Блочна верстка макету сайту за допомогою HTML і CSS"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Коломойченко К.В. ІС-22</title>
+    <link rel="stylesheet" href="style-second.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        color: rgb(54, 54, 54);
+        text-align: center;
+        padding-top: 50px;
+      }
+      h1 {
+        margin-bottom: 20px;
+      }
+      .button-container {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+      .btn {
+        background-color: #42c6d7;
+        color: black;
+        border: none;
+        padding: 15px 30px;
+        font-size: 18px;
+        text-decoration: none;
+        border-radius: 7px;
+        transition: background-color 0.3s ease;
+      }
+      .btn:hover {
+        background-color: #005d69;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Перехід між завданнями</h1>
+    <div class="button-container">
+      <a href="first-task.html" class="btn">Float</a>
+      <a href="second-task.html" class="btn">Flex</a>
+    </div>
+  </body>
+</html>
